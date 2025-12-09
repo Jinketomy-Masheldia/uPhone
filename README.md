@@ -52,7 +52,7 @@ In the default Ubuntu desktop, color display may be incorrect (red and blue chan
 1. **Clone the repository:**  
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/Jinketomy-Masheldia/uPhone
    cd uPhone
    ```
 
