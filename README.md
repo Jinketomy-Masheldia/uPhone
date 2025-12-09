@@ -123,10 +123,10 @@ In the default Ubuntu desktop, color display may be incorrect (red and blue chan
 | --------------------- | -------------------------- | -------------------------------- |
 | `backup-ubuntu.sh`    | Booted to Android          | Backup the Ubuntu installed on iPhone|
 | `boot-android.sh`     | Start from PongoOS         | Boot Android to install rootfs    |
-| `boot-linux-sshrd.sh` | Start from PongoOS         | Boot Ubuntu over SSH (SSHRD)     |
-| `boot-pongoOS.sh`     | Start from iOS / recovery  | Start PongoOS                    |
+| `boot-linux-sshrd.sh` | Start from PongoOS         | Boot a minimal Linux ramdisk for maintenance purposes |
+| `boot-pongoOS.sh`     | Start from iOS / recovery  | Boot PongoOS                    |
 | `boot-ubuntu.sh`      | Start from PongoOS         | Boot Ubuntu                      |
-| `uninstall-ubuntu.sh` | Jailbroken iOS             | Remove Ubuntu and restore iOS    |
+| `uninstall-ubuntu.sh` | Jailbroken iOS             | Remove Ubuntu and reclaim the storage space |
 
 > Note: To boot pongoOS, you must use a USB-A port. USB-C is not supported. If the process repeatedly hangs or fails, it is recommended to restart both your computer and the iPhone.
 
