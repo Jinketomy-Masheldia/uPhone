@@ -40,6 +40,7 @@ In the default Ubuntu desktop, color display may be incorrect (red and blue chan
   - `libusb-1.0-dev`
   - `binwalk`  
   - `lzma` / `xz`  
+  - `qemu-user-static` (for non-arm64 devices)
   - Standard Linux build tools (`gcc`, `make`,etc.)  
   - etc.
 
