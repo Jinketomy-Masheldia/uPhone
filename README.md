@@ -103,7 +103,7 @@ In the default Ubuntu desktop, color display may be incorrect (red and blue chan
 
 7. **Boot Ubuntu:**
 
-   - First, start pongoOS using:
+   - First, boot pongoOS using:
 
    ```bash
    bash ./utils/boot-pongoOS.sh
