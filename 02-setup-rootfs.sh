@@ -212,7 +212,6 @@ echo "nameserver 114.114.114.114" > /etc/resolv.conf
 mkdir -p /hostfs
 
 # Update and install packages
-export https_proxy=http://127.0.0.1:7897 http_proxy=http://127.0.0.1:7897 all_proxy=socks5://127.0.0.1:7897
 apt update
 apt upgrade -y
 apt install -y vim network-manager openssh-server sudo locales tzdata
