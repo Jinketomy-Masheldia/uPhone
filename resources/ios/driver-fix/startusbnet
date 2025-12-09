@@ -1,0 +1,3 @@
+#!/bin/sh
+sudo ip addr add 172.16.1.1/24 dev usb0
+sudo ip link set usb0 up

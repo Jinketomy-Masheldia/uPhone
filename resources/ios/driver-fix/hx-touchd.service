@@ -1,0 +1,16 @@
+[Unit]
+Description=Apple H9 touch daemon
+Requires=autofix-network.service
+After=autofix-network.service
+
+[Service]
+Type=exec
+ExecStart=/usr/bin/hx-touchd /etc/hw/hx-touch.fwlist /dev/nvme0n3
+
+[Install]
+WantedBy=multi-user.target
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

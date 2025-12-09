@@ -1,0 +1,11 @@
+[Unit]
+Description=Auto fix network
+
+[Service]
+Type=exec
+ExecStart=/usr/local/bin/autofix-network.sh
+
+User=root
+
+[Install]
+WantedBy=multi-user.target
