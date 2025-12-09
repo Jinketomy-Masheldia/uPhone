@@ -30,7 +30,7 @@ In the default Ubuntu desktop, color display may be incorrect (red and blue chan
 
 - **Device:** iPhone 7 / 7 Plus only  
 - **iOS Version:** 13.X (other versions are **not supported**)  
-  - The project does **not support partial downgrades**.  
+  - The project does **not support tethered downgrade devices**.  
 - **Device Storage:** Recommended 128 GB or higher  
 - **Dependencies on Host Computer:**  
   - `adb`  
