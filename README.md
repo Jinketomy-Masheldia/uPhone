@@ -18,7 +18,7 @@ In the default Ubuntu desktop, color display may be incorrect (red and blue chan
 
 ## ⚠️ Disclaimer
 
-- The project does **not guarantee success**.  
+- The project does **not guarantee success**. Some iPhone 7 Plus may crash before the kernel boots.
 - The author is **not responsible** for any device damage, data loss, or other consequences.  
 - In theory, this sets up iOS and Ubuntu dual-boot without losing iOS data, but **risks remain**.  
 - **Back up all important files before proceeding**. Ensure there is no critical data stored on the device.  
